@@ -1,0 +1,10 @@
+@import "./contants.scss";
+
+.container {
+  position: relative;
+  overflow-x: clip;
+  color: $primary;
+  > :nth-child(1) {
+    background: #f8f7f1;
+  }
+}
